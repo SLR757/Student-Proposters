@@ -49,7 +49,7 @@
 
     </div>
 
-    <a href="${cx}/Teacher/"  class="btn btn-primary btn-lg" role="button">返回票据列表 </a>
+    <a href="${cx}/Teacher/"  class="btn btn-primary btn-lg" role="button">返回数据列表 </a>
 
     <script>
         //设置页面对应的菜单选项

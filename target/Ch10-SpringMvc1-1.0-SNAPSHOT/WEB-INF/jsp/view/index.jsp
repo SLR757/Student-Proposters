@@ -17,7 +17,7 @@
 
 
 
-<template:user_backend htmlTitle="添加新票据" bodyTitle="添加新票据">
+<template:user_backend htmlTitle="添加新数据" bodyTitle="添加新数据">
     <div class="col-md-11">
         <div class="panel panel-success">
             <div class="panel-heading"

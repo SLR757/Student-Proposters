@@ -26,7 +26,7 @@
 <header class="navbar navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header" >
-            <a class="navbar-brand warning" href="#">
+            <a class="navbar-brand warning" href="#" style="color: #fff;font-size: 30px;margin-left: 760px;margin-top: 49px;">
                 <span class="glyphicon glyphicon-leaf"></span>
                 贫困生信息管理系统
             </a>
@@ -39,7 +39,7 @@
     </div>
 </header>
 
-<div class="form-signin">
+<div class="form-signin" style="margin-top: 110px;">
     <div class="text-center">
         <%--${cx}代表获取web根目录--%>
         <img src="${cx}/resource/static/img/logo.png" alt="">
@@ -56,9 +56,9 @@
 
                 <%--账号验证失败--%>
                 <c:if test="${login_status eq OpCode.INVALID_USER}">
-                <div class="alert alert-danger">
+                <%--<div class="alert alert-danger">
                         用户名或密码错误,请重新输入
-                </div>
+                </div>--%>
                 </c:if>
 
                 <input  name="adminname" type="text" value="" placeholder="请输入用户名"
