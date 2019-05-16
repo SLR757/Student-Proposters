@@ -48,10 +48,10 @@
                 <td class="text-center">
                     <input type="checkbox"></td>
                 <th>序号</th>
-                <th>票据ID号</th>
+                <th>数据ID号</th>
                 <th>主题</th>
                 <th>客户姓名</th>
-                <th>票据类型</th>
+                <th>数据类型</th>
                 <th>金额</th>
                 <th>状态</th>
                 <th class="col-lg-3">操作</th>
@@ -59,7 +59,7 @@
             </thead>
             <tbody class="">
 
-            <!--遍历输出所有票据内容-->
+            <!--遍历输出所有数据内容-->
             <c:forEach var="student" items="${studentList}"
                        varStatus="s">
             <tr>
@@ -119,7 +119,7 @@
     //使用jq弹出一个是否删除记录的提示框
     $(document).ready(function () {
         $(".ticketDel").click(function () {
-            if (confirm("确定删除票据?")) {
+            if (confirm("确定删除数据?")) {
                 return true;
             }
             return false;

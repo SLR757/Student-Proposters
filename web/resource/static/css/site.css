@@ -78,3 +78,6 @@ section.container-fluid {
 .menuLists{
     cursor: pointer;
 }
+body .navbar-inverse{
+    background: #f7f9fb;;
+}

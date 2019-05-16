@@ -4,7 +4,7 @@
 <!-- namespace表示命名空间 -->
 <mapper namespace="jee.support.dao.AttachmentDao">
 
-	<!-- 添加票据 -->
+	<!-- 添加数据 -->
 	<insert id="addAttachment" parameterType="jee.support.entity.Attachment"
 			useGeneratedKeys="true" keyProperty="attachmentId">
 	    insert into attachment (fileName, mimeType, fileUrl, studentId,teacherId)

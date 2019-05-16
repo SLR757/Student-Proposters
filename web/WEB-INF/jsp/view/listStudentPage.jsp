@@ -116,7 +116,8 @@
     //使用jq弹出一个是否删除记录的提示框
     $(document).ready(function () {
         $(".ticketDel").click(function () {
-            if (confirm("确定删除票据?")) {
+            if (confirm("确定删除数据" +
+                "?")) {
                 return true;
             }
             return false;
