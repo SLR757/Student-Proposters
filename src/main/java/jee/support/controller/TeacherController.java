@@ -30,12 +30,12 @@ public class TeacherController {
     AdminService adminService;
     @Autowired
     AdminDao adminDao;
-//处理点击添加学生信息按钮
+//处理点击添加教师信息按钮
     @RequestMapping(value = {"/create"}, method = RequestMethod.GET)
     public String toCreateTeacherForm(){
         return "addTeacher";
     }
-//处理点击查询学生信息按钮
+//处理点击查询教师信息按钮
     @RequestMapping(value = {"/query"}, method = RequestMethod.GET)
     public String selectAAA(){
         return "select";
